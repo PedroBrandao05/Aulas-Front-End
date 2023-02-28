@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,28 +8,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/cadastro.css">
-    <title>Cadastro</title>
+    <link rel="stylesheet" href="./styles/login.css">
+    <title>Login</title>
 </head>
-
 <body>
-
+    
     <header class="cabecalho">
         <a class="logo"  href="./index.html">       
-            <img src="./assets/logo.svg" alt="Logo da Global Sales">
-            <h1>Global<b>Sales</b></h1>        
+                <img src="./assets/logo.svg" alt="Logo da Global Sales">
+                <h1>Global<b>Sales</b></h1>        
         </a>
         <a href="/cadastro.html">Contato</a>
     </header>
 
     <main>
         <div class="card">
-            <h2>Cadastro</h2>
+            <h2>Login</h2>
             <form>
-                <label for="name">Digite seu nome</label>
-                <div class="input">
-                    <input autocomplete="off" type="text" id="name" name="name" placeholder="João da Silva">
-                </div>
                 <label for="email">Digite seu email</label>
                 <div class="input">
                     <input autocomplete="off" type="email" id="email" name="email" placeholder="joaosilva@email.com">
@@ -40,26 +33,17 @@
                 <div class="input">
                     <input autocomplete="off" type="password" id="password" name="password">
                     <button class="button-image-locked">
-                        <img src="./assets/eye-locked.svg" class="st-locked" alt="olho fechado">
-                        <img src="./assets/eye-opened.svg" class="st-open" alt="olho fechado">
+
                     </button>
                 </div>
-                <label for="passwordConfirma">Confirme sua senha</label>
-                <div class="input">
-                       <input autocomplete="off" type="password" id="passwordConfirma" name="passwordConfirma">
-                       <button class="button-image-locked">
-                          <img src="./assets/eye-locked.svg" class="nd-locked" alt="olho fechado">
-                          <img src="./assets/eye-opened.svg" class="nd-open" alt="olho fechado">
-                       </button>
-                </div>
                 <div class="login">
-                    <p>Já tem uma conta?</p>
-                    <a href="./login.html">Faça login</a>
+                    <p>Não tem uma conta?</p>
+                    <a href="./cadastro.html">Cadastre-se</a>
                 </div>
             </form>
         </div>
         <button class="button-enviar">
-            ENVIAR
+            ENTRAR
         </button>
     </main>
     <footer class="rodape">

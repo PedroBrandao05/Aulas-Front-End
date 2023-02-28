@@ -1,0 +1,221 @@
+/* Estilização do Formulário */
+
+main {
+    width: 100vw;
+    display: flex;
+    padding-top: 3rem;
+    align-items: center;
+    flex-direction: column;
+    gap: 3.5rem;
+    padding-bottom: 2rem;
+}
+
+.card {
+    width: 28.4rem;
+    height: 35rem;
+    background-color: white;
+    opacity: 0.6;
+    box-shadow: 3px 6px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card h2 {
+    font-size: 16px;
+    font-weight: 700;
+    padding-block: 2rem;
+}
+
+.card form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 24.5rem;
+}
+
+.card form .login {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card form .login p{
+    font-weight: 700;
+}
+
+.card form .login a{
+    color: var(--azul-claro);
+}
+
+.card form label {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.card form .input {
+    background: #E8E8E8;
+    border: 3px solid #7B8590;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 0.6rem;
+}
+
+.card form input {
+    background-color: transparent;
+    border: none;
+    width: auto;
+}
+
+.card form input:focus {
+  outline: none;
+}
+
+.card form input::placeholder {
+    color: #797676;
+}
+
+.card form .input button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+}
+
+.st-locked {
+    display: block;
+}
+
+.st-open {
+    display: none;
+}
+
+.nd-locked {
+    display: block;
+}
+
+.nd-open {
+    display: none;
+}
+
+main .button-enviar {
+    filter: drop-shadow(3px 5px 4px rgba(0, 0, 0, 0.25));
+    width: 15rem;
+    height: 5.3rem;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: var(--azul-claro);
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    line-height: 50px;
+    margin-bottom: 3rem;
+}
+
+@media screen and (min-width: 720px) {
+    .card {
+        width: 53.5rem;
+        height: 52.5rem;
+    }
+
+    .card h2 {
+        font-size: 24px;
+    }
+
+    .card form {
+        width: 41.9rem;
+    }
+
+    .card form label {
+        font-size: 16px;
+    }
+
+    .card form .input {
+        height: 3.7rem;
+    }
+
+    .card form input::placeholder {
+        font-size: 14px;
+    }
+
+    .card form .input button img {
+        width: 3.2rem;
+        height: 2.5rem;
+    }
+
+    main .button-enviar {
+        width: 28rem;
+        height: 8rem;
+        font-size: 28px;
+        border: 5px solid white;
+    }
+
+    main {
+        gap: 15rem;
+    }
+
+    .card form .login p, a{
+        font-size: 16px;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+    .card {
+        width: 79.6rem;
+        height: 79rem;
+        padding-top: 5rem;
+        gap: 5rem;
+    }
+
+    .card h2 {
+        font-size: 32px;
+    }
+
+    .card form {
+        width: 62.8rem;
+    }
+
+    .card form label {
+        font-size: 28px;
+    }
+
+    .card form .input {
+        height: 5.2rem;
+    }
+
+    .card form input::placeholder {
+        font-size: 16px;
+    }
+
+    .card form .input button img {
+        width: 4.7rem;
+        height: 3.5rem;
+    }
+
+    main .button-enviar {
+        width: 42.1rem;
+        height: 12.6rem;
+        font-size: 32px;
+        border: 5px solid white;
+    }
+
+    main {
+        gap: 15rem;
+        padding-bottom: 15rem;
+        padding-top: 15rem;
+    }
+
+    .card form .login p, a{
+        font-size: 18px;
+    }
+    
+}

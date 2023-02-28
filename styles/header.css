@@ -1,0 +1,96 @@
+:root {
+    --azul-claro: #02BAF5
+}
+
+body {
+    background-color: #EBEFFF;
+}
+
+/* Estilização do cabeçalho */
+
+.cabecalho {
+   width: 100vw; 
+   background-color: var(--azul-claro);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 6rem;
+}
+
+.cabecalho h1 {
+    color: white;
+    font-size: 16px;
+    padding-bottom: 0.3rem;
+}
+
+.cabecalho a {
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    padding-right: 1rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 1rem;
+}
+
+b {
+    font-weight: 700;
+}
+
+
+@media screen and (min-width: 720px) {
+    .cabecalho {
+        height: 8.5rem;
+    }
+
+    .cabecalho h1 {
+        font-size: 20px;
+    }
+    
+    .cabecalho img {
+        width: 54px;
+        height: 54px;
+    }
+
+    .logo {
+        padding-left: 3rem;
+        padding-bottom: 0;
+        padding-top: 0.5rem;
+    }
+
+    .cabecalho a {
+        font-size: 16px;
+        padding-right: 3rem;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .cabecalho {
+        height: 10rem;
+    }
+
+    .cabecalho h1 {
+        font-size: 32px;
+    }
+    
+    .cabecalho img {
+        width: 75px;
+        height: 75px;
+    }
+
+    .logo {
+        padding-left: 5rem;
+        padding-bottom: 0;
+        padding-top: 0.5rem;
+    }
+
+    .cabecalho a {
+        font-size: 24px;
+        padding-right: 5rem;
+    }
+}
