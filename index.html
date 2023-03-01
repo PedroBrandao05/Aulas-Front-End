@@ -4,9 +4,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/index.css">
     <title>Global Sales</title>
 </head>
 <body>
-    <a href="./cadastro.html">Cadastro</a>
+    <header class="cabecalho">
+        <a class="logo"  href="./index.html">       
+            <img src="./assets/logo.svg" alt="Logo da Global Sales">
+            <h1>Global<b>Sales</b></h1>        
+        </a>
+        <button id="open-sidebar" class="open-sidebar-button">
+            <img src="./assets/menu-burguer-button.svg" alt="Botão de abrir barra lateral">
+        </button>
+    </header>
+    <nav class="sidebar" id="sidebar">
+        <div class="links">
+            <a href="./index.html">Selecionar país de origem</a>
+            <a href="./carrinho.html">Carrinho</a>
+            <a href="./cadastro.html">Cadastro</a>
+        </div>
+    </nav>
+
+    <main>
+        <div class="card-apresentacao">
+            <h3>
+                Bem vindo ao maior ecossistema de importações do <br> mundo
+            </h3>
+            <a class="logo-apresentacao"  href="/">       
+                <img src="./assets/logo.svg" alt="Logo da Global Sales">
+                <h2>Global<b>Sales</b></h2>        
+            </a>
+        </div>
+
+        <div class="selecao">
+            <h3>
+                Para começar:
+                <br>
+                Selecione o país desejado
+            </h3>
+
+            <div class="carrosel">
+                <button id="anterior">
+                    <img src="./assets/voltar.svg" alt="Voltar item">
+                </button>
+                <div class="bandeiras">
+                    <div class="item">
+                        <img class="bandeira" src="./assets/FR.svg" alt="Bandeira da França">
+                        <a href="./produtos-frança.html">Ver produtos</a>
+                    </div>
+                    <div class="item">
+                        <img  class="bandeira" src="./assets/ES.svg" alt="Bandeira da Espanha">
+                        <a href="./produtos-espanha.html">Ver produtos</a>
+                    </div>
+                    <div class="item">
+                        <img class="bandeira" src="./assets/IT.svg" alt="Bandeira da Itália">
+                        <a href="./produtos-italia.html">Ver produtos</a>
+                    </div>
+                    <div class="item">
+                        <img class="bandeira" src="./assets/JP.svg" alt="Bandeira do Japão">
+                        <a href="./produtos-japao.html">Ver produtos</a>
+                    </div>
+                    <div class="item">
+                        <img class="bandeira" src="./assets/DE.svg" alt="Bandeira da Alemanha">
+                        <a href="./produtos-alemanha.html">Ver produtos</a>
+                    </div>
+                </div>
+                <button id="proximo">
+                    <img src="./assets/ir.svg" alt="Próximo item">
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="rodape">
+        <p> &copy;GlobalSales </p>
+    </footer>
+    <script src="./scripts/index.js"></script>
 </body>
 </html>

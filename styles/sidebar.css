@@ -1,0 +1,31 @@
+:root {
+    --azul-claro: #02BAF5
+}
+
+.sidebar {
+    display: none;
+}
+
+.sidebar.open {
+    display: block;
+    position: fixed;
+    background-color: var(--azul-claro);
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 100vw;
+    padding-top: 3rem;
+}
+
+.links a {
+    color: white;
+    font-size: 15px;
+}
