@@ -1,0 +1,94 @@
+@import url(./header.css);
+@import url(./rodape.css);
+@import url(./sidebar.css);
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    padding-bottom: 6rem;
+    gap: 4rem;
+}
+
+.card-produtos{
+    width: 31.7rem;
+    height: 13.4rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background-color: hsla(0, 0%, 100%, 0.782);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-inline: 2rem;
+}
+
+.card-produtos-item {
+    width: 31.7rem;
+    height: 13.4rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background-color: hsla(0, 0%, 100%, 0.782);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-inline: 2rem;
+}
+
+
+.card-produtos h2 {
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.2rem;
+}
+
+.card-produtos img {
+    width: 10rem;
+    height: 5.4rem;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.produtos {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.item {
+    width: 6.6rem;
+    height: 7.1rem;
+
+}
+
+.info-produtos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.info-produtos p {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+
+.info-produtos-titulo {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-produtos-titulo h3 {
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 20px;
+    letter-spacing: 0.1rem;
+}
+
+.info-produtos-titulo p {
+    font-size: 6px;
+    line-height: 20px;
+    letter-spacing: 0.1rem;
+    color: #0AFAB3;
+}

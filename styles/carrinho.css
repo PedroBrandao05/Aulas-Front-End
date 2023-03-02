@@ -1,0 +1,111 @@
+@import url(./header.css);
+@import url(./rodape.css);
+@import url(./sidebar.css);
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    padding-bottom: 6rem;
+    gap: 4rem;
+}
+
+.titulo-carrinho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20rem;
+    height: 10rem;
+    gap: 2rem;
+}
+
+.titulo-carrinho h2 {
+    letter-spacing: 0.1rem;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+
+.card-produtos-item {
+    width: 25.7rem;
+    height: 13.4rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background-color: hsla(0, 0%, 100%, 0.782);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-inline: 2rem;
+}
+
+
+.item {
+    width: 6.6rem;
+    height: 7.1rem;
+
+}
+
+.info-produtos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.info-produtos p {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+
+.info-produtos-titulo {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-produtos-titulo h3 {
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 20px;
+    letter-spacing: 0.1rem;
+}
+
+.info-produtos-titulo .recomendado {
+    font-size: 10px;
+    line-height: 20px;
+    letter-spacing: 0.1rem;
+    color: #0AFAB3;
+    font-weight: 400;
+}
+
+.itens-carrinho {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    justify-content: space-around;
+}
+
+.itens-carrinho p {
+    font-size: 16px;
+    letter-spacing: 0.1rem;
+}
+
+.botao-finalizar {
+    border: 5px solid white;
+    background-color: #0AFAB3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    letter-spacing: 0.2rem;
+    width: 16rem;
+    line-height: 50px;
+    height: 5.3rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+    filter: drop-shadow(3px 5px 4px rgba(0, 0, 0, 0.25));
+}

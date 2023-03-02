@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/carrinho.css">
+    <title>Carrinho</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <a class="logo"  href="./index.html">       
+            <img src="./assets/logo.svg" alt="Logo da Global Sales">
+            <h1>Global<b>Sales</b></h1>        
+        </a>
+        <button id="open-sidebar" class="open-sidebar-button">
+            <img src="./assets/menu-burguer-button.svg" alt="Botão de abrir barra lateral">
+        </button>
+    </header>
+    <nav class="sidebar" id="sidebar">
+        <div class="links">
+            <a href="./index.html">Selecionar país de origem</a>
+            <a href="./carrinho.html">Carrinho</a>
+            <a href="./cadastro.html">Cadastro</a>
+        </div>
+    </nav>
+
+    <main>
+        <div class="titulo-carrinho">
+            <h2>
+                Carrinho de compras
+            </h2>
+            <img src="./assets/icon-carrinho.svg" alt="Ícone de um carrinho">
+        </div>
+
+        <div class="itens-carrinho">
+            <div class="card-produtos-item">
+                <img class="item" src="./assets/vinho.svg" alt="Imagem de um vinho">
+                <div class="info-produtos">
+                    <div class="info-produtos-titulo">
+                        <h3>Vinho Francês Montaignan Cabernet/Syrah</h3>
+                        <p class="recomendado">Recomendado</p>
+                    </div>
+                    <p>
+                        R$112,10
+                    </p>
+                </div>
+            </div>
+            <p>Total: R$112,10</p>
+        </div>
+
+        <button class="botao-finalizar">
+            FINALIZAR
+        </button>
+    </main>
+
+    <footer class="rodape">
+        <p> &copy;GlobalSales </p>
+    </footer>
+    <script src="./scripts/sidebar.js"></script>
+</body>
+</html>
